@@ -1,0 +1,111 @@
+body{
+background-color: RGB(243, 234, 224);
+font-family: outfit;
+}
+
+.image{
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+
+img{
+  width: 640px;
+  height: 290px;
+  border-radius: 12px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.Title {
+font-family: Young serif;
+font-size: 32px;
+}
+
+li::marker{
+  color: brown;
+  font-weight: bold;
+}
+
+.container{
+  background-color: white;
+  border-radius: 15px;
+  padding: 40px;
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px;
+}
+
+tr{
+  border-bottom: 1px solid #ddd;
+}
+
+table tr:last-child {
+  border-bottom: none;
+}
+
+td{
+  padding: 8px;
+}
+
+table td:last-child {
+  color: brown;
+  font-weight: bold;
+}
+
+.sub-title{
+  font-family: Young serif;
+  color: brown;
+  font-size: 26px;
+}
+
+hr{
+  background-color: #ddd;
+}
+
+span{
+  font-weight: bold;
+}
+
+li{
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+ul, ol{
+  padding-left: 25px;
+}
+
+.preparation-time p{
+  color:rgb(161, 52, 119);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.preparation-time {
+  background-color:rgb(255, 246, 252);
+  padding: 8px 20px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width:375px){
+  .img{
+    border-radius: 0;
+  }
+  .container{
+    padding: 0px;
+    margin-left: a0;
+    margin-right: 0;
+  }
+  body{
+    background-color: white;
+    font-family: outfit;
+    }
+  
+}
